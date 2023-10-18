@@ -2,7 +2,7 @@
 
 namespace Todo_AccountManager.Repository
 {
-    public class todo : Controller
+    public class todoRepository : Controller
     {
         public IActionResult Index()
         {

@@ -4,9 +4,7 @@ namespace Todo_AccountManager.Models
 {
     public class todoModels : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+      public int Id { get; set; }
+      public string todoList { get; set; }
     }
 }
